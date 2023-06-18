@@ -1,6 +1,6 @@
 {
   "name": "@omb32/navpackage",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "Custom Nav",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
