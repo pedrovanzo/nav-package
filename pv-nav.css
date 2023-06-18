@@ -1,0 +1,27 @@
+:root {
+    --navbar-font-size: 16px;
+}
+
+.pv-nav,
+.pv-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pv-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    width: 100%;
+    font-size: var(--navbar-font-size);
+    color: hsl(0, 0%, 100%);
+    background-image: linear-gradient(to right, hsl(10, 100%, 59%), hsl(35, 88%, 52%));
+}
+
+.pv-ul {
+    gap: 8px;
+}
