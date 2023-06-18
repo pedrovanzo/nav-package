@@ -1,10 +1,10 @@
 {
   "name": "@omb32/navpackage",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Custom Nav",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -14,5 +14,12 @@
     "WDS"
   ],
   "author": "Pedro Vanzo",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
